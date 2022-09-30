@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57C8CFEA28E6B0710069526D /* InscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C8CFE928E6B0710069526D /* InscriptionView.swift */; };
+		9F00A73F28E19840003B993E /* Pays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F00A73E28E19840003B993E /* Pays.swift */; };
+		9F00A74128E1CFBF003B993E /* DetailsStepsRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F00A74028E1CFBF003B993E /* DetailsStepsRecipe.swift */; };
+		9F00A74328E2F11E003B993E /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F00A74228E2F11E003B993E /* RecipeListView.swift */; };
+		9F00A74528E2F14B003B993E /* ChefListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F00A74428E2F14B003B993E /* ChefListView.swift */; };
+		9F00A74728E2F16E003B993E /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F00A74628E2F16E003B993E /* PreferencesView.swift */; };
+		9F0E22EC28D9EF210070B831 /* YumoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E22EB28D9EF210070B831 /* YumoodApp.swift */; };
+		9F0E22EE28D9EF210070B831 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E22ED28D9EF210070B831 /* ContentView.swift */; };
+		9F0E22F028D9EF210070B831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F0E22EF28D9EF210070B831 /* Assets.xcassets */; };
+		9F0E22F328D9EF210070B831 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F0E22F228D9EF210070B831 /* Preview Assets.xcassets */; };
+		9F0E230028D9F01D0070B831 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E22FF28D9F01D0070B831 /* HomePageView.swift */; };
+		9F0E230228D9F0360070B831 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E230128D9F0360070B831 /* Recipe.swift */; };
+		9F0E230428D9F0470070B831 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E230328D9F0470070B831 /* User.swift */; };
+		9F0E230628D9F0CB0070B831 /* ListCountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E230528D9F0CB0070B831 /* ListCountryView.swift */; };
+		9F0E230828D9F0DF0070B831 /* ListMealCountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E230728D9F0DF0070B831 /* ListMealCountryView.swift */; };
+		9F0E230C28D9F0F90070B831 /* IngredientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E230B28D9F0F90070B831 /* IngredientView.swift */; };
+		9F0E230E28D9F1070070B831 /* PreparationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E230D28D9F1070070B831 /* PreparationView.swift */; };
+		9F0E231028D9F1610070B831 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E230F28D9F1610070B831 /* ProfileView.swift */; };
+		9FDBA70928DB0E3500344B38 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDBA70828DB0E3500344B38 /* VideoView.swift */; };
+		9FDBA70B28DB5B0100344B38 /* ChefView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDBA70A28DB5B0100344B38 /* ChefView.swift */; };
+		9FDBA70D28DC808300344B38 /* Continent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDBA70C28DC808300344B38 /* Continent.swift */; };
+		9FDBA71328DDDC7800344B38 /* FavoriteRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDBA71228DDDC7800344B38 /* FavoriteRecipe.swift */; };
+		9FDBA71528DDE22B00344B38 /* ListRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDBA71428DDE22B00344B38 /* ListRecipeView.swift */; };
+		9FDBA71728DDF04B00344B38 /* PersonalInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDBA71628DDF04B00344B38 /* PersonalInformation.swift */; };
+		9FEB966228D9FA0200552FB2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEB966128D9FA0200552FB2 /* LoginView.swift */; };
+		9FEB966428D9FCE200552FB2 /* Chef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEB966328D9FCE200552FB2 /* Chef.swift */; };
+		9FEB966828DA04D600552FB2 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEB966728DA04D600552FB2 /* Shop.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		57C8CFE928E6B0710069526D /* InscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InscriptionView.swift; sourceTree = "<group>"; };
+		9F00A73E28E19840003B993E /* Pays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pays.swift; sourceTree = "<group>"; };
+		9F00A74028E1CFBF003B993E /* DetailsStepsRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsStepsRecipe.swift; sourceTree = "<group>"; };
+		9F00A74228E2F11E003B993E /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
+		9F00A74428E2F14B003B993E /* ChefListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefListView.swift; sourceTree = "<group>"; };
+		9F00A74628E2F16E003B993E /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
+		9F0E22E828D9EF210070B831 /* Yumood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yumood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F0E22EB28D9EF210070B831 /* YumoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YumoodApp.swift; sourceTree = "<group>"; };
+		9F0E22ED28D9EF210070B831 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9F0E22EF28D9EF210070B831 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F0E22F228D9EF210070B831 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F0E22FF28D9F01D0070B831 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		9F0E230128D9F0360070B831 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		9F0E230328D9F0470070B831 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9F0E230528D9F0CB0070B831 /* ListCountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCountryView.swift; sourceTree = "<group>"; };
+		9F0E230728D9F0DF0070B831 /* ListMealCountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMealCountryView.swift; sourceTree = "<group>"; };
+		9F0E230B28D9F0F90070B831 /* IngredientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientView.swift; sourceTree = "<group>"; };
+		9F0E230D28D9F1070070B831 /* PreparationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreparationView.swift; sourceTree = "<group>"; };
+		9F0E230F28D9F1610070B831 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		9FDBA70828DB0E3500344B38 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		9FDBA70A28DB5B0100344B38 /* ChefView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefView.swift; sourceTree = "<group>"; };
+		9FDBA70C28DC808300344B38 /* Continent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Continent.swift; sourceTree = "<group>"; };
+		9FDBA71228DDDC7800344B38 /* FavoriteRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteRecipe.swift; sourceTree = "<group>"; };
+		9FDBA71428DDE22B00344B38 /* ListRecipeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListRecipeView.swift; sourceTree = "<group>"; };
+		9FDBA71628DDF04B00344B38 /* PersonalInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInformation.swift; sourceTree = "<group>"; };
+		9FEB966128D9FA0200552FB2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		9FEB966328D9FCE200552FB2 /* Chef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chef.swift; sourceTree = "<group>"; };
+		9FEB966728DA04D600552FB2 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F0E22E528D9EF210070B831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F0E22DF28D9EF210070B831 = {
+			isa = PBXGroup;
+			children = (
+				9F0E22EA28D9EF210070B831 /* Yumood */,
+				9F0E22E928D9EF210070B831 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F0E22E928D9EF210070B831 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F0E22E828D9EF210070B831 /* Yumood.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F0E22EA28D9EF210070B831 /* Yumood */ = {
+			isa = PBXGroup;
+			children = (
+				9F0E22EB28D9EF210070B831 /* YumoodApp.swift */,
+				9F0E22FD28D9EF760070B831 /* Views */,
+				9F0E22FB28D9EF4F0070B831 /* Model */,
+				9F0E22EF28D9EF210070B831 /* Assets.xcassets */,
+				9FDBA70828DB0E3500344B38 /* VideoView.swift */,
+				9F0E22F128D9EF210070B831 /* Preview Content */,
+			);
+			path = Yumood;
+			sourceTree = "<group>";
+		};
+		9F0E22F128D9EF210070B831 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9F0E22F228D9EF210070B831 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9F0E22FB28D9EF4F0070B831 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F0E230128D9F0360070B831 /* Recipe.swift */,
+				9FDBA70C28DC808300344B38 /* Continent.swift */,
+				9FEB966728DA04D600552FB2 /* Shop.swift */,
+				9F0E230328D9F0470070B831 /* User.swift */,
+				9FEB966328D9FCE200552FB2 /* Chef.swift */,
+				9F00A73E28E19840003B993E /* Pays.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9F0E22FD28D9EF760070B831 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9F0E22ED28D9EF210070B831 /* ContentView.swift */,
+				9FEB966128D9FA0200552FB2 /* LoginView.swift */,
+				57C8CFE928E6B0710069526D /* InscriptionView.swift */,
+				9F0E22FF28D9F01D0070B831 /* HomePageView.swift */,
+				9F00A74228E2F11E003B993E /* RecipeListView.swift */,
+				9F0E230528D9F0CB0070B831 /* ListCountryView.swift */,
+				9F0E230728D9F0DF0070B831 /* ListMealCountryView.swift */,
+				9F0E230B28D9F0F90070B831 /* IngredientView.swift */,
+				9FDBA71428DDE22B00344B38 /* ListRecipeView.swift */,
+				9F0E230D28D9F1070070B831 /* PreparationView.swift */,
+				9FDBA70A28DB5B0100344B38 /* ChefView.swift */,
+				9F0E230F28D9F1610070B831 /* ProfileView.swift */,
+				9FDBA71228DDDC7800344B38 /* FavoriteRecipe.swift */,
+				9FDBA71628DDF04B00344B38 /* PersonalInformation.swift */,
+				9F00A74028E1CFBF003B993E /* DetailsStepsRecipe.swift */,
+				9F00A74428E2F14B003B993E /* ChefListView.swift */,
+				9F00A74628E2F16E003B993E /* PreferencesView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F0E22E728D9EF210070B831 /* Yumood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F0E22F628D9EF210070B831 /* Build configuration list for PBXNativeTarget "Yumood" */;
+			buildPhases = (
+				9F0E22E428D9EF210070B831 /* Sources */,
+				9F0E22E528D9EF210070B831 /* Frameworks */,
+				9F0E22E628D9EF210070B831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yumood;
+			productName = Yumood;
+			productReference = 9F0E22E828D9EF210070B831 /* Yumood.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F0E22E028D9EF210070B831 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					9F0E22E728D9EF210070B831 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 9F0E22E328D9EF210070B831 /* Build configuration list for PBXProject "Yumood" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F0E22DF28D9EF210070B831;
+			productRefGroup = 9F0E22E928D9EF210070B831 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F0E22E728D9EF210070B831 /* Yumood */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F0E22E628D9EF210070B831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0E22F328D9EF210070B831 /* Preview Assets.xcassets in Resources */,
+				9F0E22F028D9EF210070B831 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F0E22E428D9EF210070B831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0E230C28D9F0F90070B831 /* IngredientView.swift in Sources */,
+				9F0E22EE28D9EF210070B831 /* ContentView.swift in Sources */,
+				9F0E230E28D9F1070070B831 /* PreparationView.swift in Sources */,
+				9F0E230628D9F0CB0070B831 /* ListCountryView.swift in Sources */,
+				9FEB966428D9FCE200552FB2 /* Chef.swift in Sources */,
+				9F0E230028D9F01D0070B831 /* HomePageView.swift in Sources */,
+				9FDBA70928DB0E3500344B38 /* VideoView.swift in Sources */,
+				9FDBA71328DDDC7800344B38 /* FavoriteRecipe.swift in Sources */,
+				9FDBA71528DDE22B00344B38 /* ListRecipeView.swift in Sources */,
+				9F0E22EC28D9EF210070B831 /* YumoodApp.swift in Sources */,
+				9F00A74528E2F14B003B993E /* ChefListView.swift in Sources */,
+				57C8CFEA28E6B0710069526D /* InscriptionView.swift in Sources */,
+				9FEB966228D9FA0200552FB2 /* LoginView.swift in Sources */,
+				9F0E230828D9F0DF0070B831 /* ListMealCountryView.swift in Sources */,
+				9FDBA70B28DB5B0100344B38 /* ChefView.swift in Sources */,
+				9F0E230428D9F0470070B831 /* User.swift in Sources */,
+				9F00A73F28E19840003B993E /* Pays.swift in Sources */,
+				9FDBA70D28DC808300344B38 /* Continent.swift in Sources */,
+				9FEB966828DA04D600552FB2 /* Shop.swift in Sources */,
+				9F00A74328E2F11E003B993E /* RecipeListView.swift in Sources */,
+				9F00A74728E2F16E003B993E /* PreferencesView.swift in Sources */,
+				9F00A74128E1CFBF003B993E /* DetailsStepsRecipe.swift in Sources */,
+				9F0E231028D9F1610070B831 /* ProfileView.swift in Sources */,
+				9F0E230228D9F0360070B831 /* Recipe.swift in Sources */,
+				9FDBA71728DDF04B00344B38 /* PersonalInformation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9F0E22F428D9EF210070B831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F0E22F528D9EF210070B831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F0E22F728D9EF210070B831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Yumood/Preview Content\"";
+				DEVELOPMENT_TEAM = 3DN5WMRWS5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mauricio.Yumood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F0E22F828D9EF210070B831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Yumood/Preview Content\"";
+				DEVELOPMENT_TEAM = 3DN5WMRWS5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mauricio.Yumood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F0E22E328D9EF210070B831 /* Build configuration list for PBXProject "Yumood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F0E22F428D9EF210070B831 /* Debug */,
+				9F0E22F528D9EF210070B831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F0E22F628D9EF210070B831 /* Build configuration list for PBXNativeTarget "Yumood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F0E22F728D9EF210070B831 /* Debug */,
+				9F0E22F828D9EF210070B831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F0E22E028D9EF210070B831 /* Project object */;
+}
